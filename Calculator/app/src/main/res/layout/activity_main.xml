@@ -463,27 +463,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
+
     <TextView
         android:id="@+id/edit_param_1"
         android:layout_width="411dp"
         android:layout_height="46dp"
-        android:layout_marginBottom="8dp"
         android:hint=""
         android:textAlignment="textEnd"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/edit_param_2"
-        tools:layout_editor_absoluteX="-2dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/edit_param_2"
         android:layout_width="412dp"
         android:layout_height="66dp"
-        android:layout_marginBottom="12dp"
         android:hint="0"
         android:textAlignment="textEnd"
         android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/buttonMS"
-        tools:layout_editor_absoluteX="-4dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button1trenX"
@@ -499,11 +503,12 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
+
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="61dp"
-        android:layout_height="52dp"
-        android:src="@android:drawable/ic_menu_revert"
+        android:layout_width="69dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_baseline_history_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.991"
